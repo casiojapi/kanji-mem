@@ -8,7 +8,7 @@ const fetch_list = async name => {
     // console.log(lista)
     const n_kanjis = lista.length;
     // console.log(n_kanjis);
-    for (let i = 0; i < 10; i++) {
+    for (let i = 0; i < n_kanjis; i++) {
         await get_kanji(lista[i]);
     }
 }
@@ -29,7 +29,11 @@ function create_kanji_card(kanji) {
         <div class="write">
             <h1>
                 ${kanji.kanji}
+               
             </h1>
+            <p>
+                ${kanji.heisig_en}
+            </p>
         </div>
     `
     kanji_div.innerHTML = kanjiHTML;
