@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+    background: #efefef;	
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Lato';
+	margin: 0;
+}
+
+h1 {
+    letter-spacing: 3px;
+    /* background-color: rgba(50, 70, 255, 0.5); */
+    border-radius: 2em;
+    padding: 0.7em;
+    margin: 2em;
+    color: #111;
+}
+
+.kanji-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: space-between;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.kanji {
+    background-color: #eee;
+    color: #111;
+    border-radius: 1em;
+    box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+	margin: 10px;
+	padding: 20px;
+	text-align: center;
+}
