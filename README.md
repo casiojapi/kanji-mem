@@ -1,1 +1,1 @@
-# [kanji project](https://maximop2p.github.io/kanji-mem/)
+# [kanji project](https://maximosan.github.io/kanji-mem/)
